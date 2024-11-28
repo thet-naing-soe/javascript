@@ -1,6 +1,6 @@
 const getHandlingPromise = async () => {
   try {
-    const response = await fetch("ttps://dog.ceo/api/breeds/image/random");
+    const response = await fetch("https://dog.ceo/api/breeds/image/random");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
