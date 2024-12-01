@@ -1,6 +1,6 @@
-function Character(name) {
+function Character(name, collectedItemsArr = []) {
   this.name = name;
-  this.collectedItemsArr = [];
+  this.collectedItemsArr = collectedItemsArr;
   this.addItem = function (item) {
     this.collectedItemsArr.push(item);
     console.log(`${this.name} now has ${this.collectedItemsArr.join(", ")}`);
