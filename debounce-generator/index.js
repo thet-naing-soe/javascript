@@ -1,4 +1,4 @@
-import { cafeDataArr } from "/apiData.js";
+import { cafeDataArr } from "./apiData.js";
 
 function* fetchDataGenerator(maxSections = 10) {
   let sectionCount = 0;
